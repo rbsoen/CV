@@ -9,6 +9,9 @@
    id="svg1"
    inkscape:version="1.3-alpha (2a5ddc9, 2023-03-29)"
    sodipodi:docname="background.svg"
+   inkscape:export-filename="background.jpg"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,13 +27,13 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.54866744"
-     inkscape:cx="542.22281"
-     inkscape:cy="683.47413"
+     inkscape:zoom="0.77593293"
+     inkscape:cx="197.18199"
+     inkscape:cy="625.05402"
      inkscape:window-width="1406"
      inkscape:window-height="746"
-     inkscape:window-x="575"
-     inkscape:window-y="170"
+     inkscape:window-x="516"
+     inkscape:window-y="471"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      showgrid="false" />
@@ -120,7 +123,7 @@
        x2="95.123421"
        y2="154.6875"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.35357138,0,0,1,2.6119179e-6,0)" />
+       gradientTransform="matrix(0.41249996,0,0,1,-12.374997,0)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4"
@@ -1112,9 +1115,9 @@
     <rect
        style="opacity:1;vector-effect:non-scaling-stroke;fill:url(#linearGradient5);fill-opacity:1;stroke-width:0.264584;-inkscape-stroke:hairline"
        id="rect2"
-       width="74.249985"
+       width="86.624985"
        height="296.99997"
-       x="4.0405357e-06"
+       x="-12.374995"
        y="-1.4440918e-06"
        rx="0"
        ry="0" />

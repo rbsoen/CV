@@ -134,8 +134,8 @@ header address li:before { /* don't confuse autoreaders by having it be graphics
 
 header address li:nth-of-type(1):before { background-image: url("../assets/map-pin-solid.svg"); }
 header address li:nth-of-type(2):before { background-image: url("../assets/phone-solid.svg"); }
-header address li:nth-of-type(3):before { background-image: url("../assets/earth-asia-solid.svg"); }
-header address li:nth-of-type(4):before { background-image: url("../assets/envelope-solid.svg"); }
+header address li:nth-of-type(3):before { background-image: url("../assets/envelope-solid.svg"); }
+header address li:nth-of-type(4):before { background-image: url("../assets/earth-asia-solid.svg"); }
 header address li:nth-of-type(5):before { background-image: url("../assets/linkedin.svg"); }
 
 header address li:last-of-type:after {

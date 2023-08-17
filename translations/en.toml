@@ -3,6 +3,16 @@
 000="Summary"
 100="Fresh computer engineering graduate looking for valuable opportunities in the IT sector. Experienced in delivering attractive visual design and engineering software tools. A self-learner, striving to deliver the best results possible using any tool available. Always at the ready to commit to the job with due diligence."
 
+010="About Me"
+020="Nickname"
+030="Degree"
+031="Bachelor of Engineering"
+040="Gender"
+041="Male"
+050="Nationality"
+051="Indonesian"
+060="Year of Birth"
+
 200="Education"
 
 300="Universitas Indonesia"
@@ -41,6 +51,22 @@
 2200="Sinematografi UI"
 2300="Head of Design"
 2400="Worked with the PR department to specify the design language used throughout social media feeds. Worked together with the staff to produce posts that match the specification."
+
+2210="Club of Science & Social SMAN 3 Depok"
+2310="Secretary"
+2410="Produced accountability reports and managed the expenses of the organization."
+
+2220="3ASSIC SMAN 3 Depok &ldquo;Dynamic&rdquo;"
+2320="Staff, Design & Documentation Division"
+2420="Created the logo, overall visual theme and social media designs for the event."
+
+2230="Sinematografi UI"
+2330="Staff, Design Division"
+2430="Introduced a significant change in the social media design which enables headers and footers. Worked together with the staff to produce posts that match the specified design language."
+
+2240="UI Film Festival"
+2340="Staff, Design Division"
+2440="Recognized as the <b>most dedicated staff member</b> of the entire event team. Worked together with the staff to produce posts that match the specified design language."
 
 2500="Skills"
 

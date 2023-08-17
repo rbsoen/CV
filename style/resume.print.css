@@ -76,9 +76,10 @@ h1 {
 	transform: translateY(10pt);
 }
 
-h1 span {
-	font-size: .7em;
-	font-weight: 600;
+h1 span.subtitle {
+	font-size: .65em;
+	opacity: .7;
+	font-weight: 500;
 	letter-spacing: 0;
 	font-style: oblique;
 	display: block;
@@ -170,7 +171,7 @@ dl#education div dt span.school,
 dl#work div dt span.org,
 dl#volunteer div dt span.org {
 	flex-grow: 1;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 dl#education div dt span.year,
@@ -178,7 +179,7 @@ dl#work div dt span.period,
 dl#volunteer div dt span.period {
 	flex-grow: 0;
 	font-weight: 400;
-	opacity: .5;
+	opacity: .7;
 }
 
 dl#education div dd div.major,
@@ -204,10 +205,11 @@ ul.tag-list li {
 	display: block;
 	flex-grow: 0;
 	text-align: center;
-	margin: 0 4pt 4pt 0;
+	margin: 0 3pt 3pt 0;
 	padding: 1pt 6pt;
 	border-radius: 5pt;
 	background-color: #eee;
+	border: 1pt solid #ddd;
 	font-size: .9em;
 	font-style: normal;
 	letter-spacing: .25pt;

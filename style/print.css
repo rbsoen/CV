@@ -1,0 +1,211 @@
+@page:first {
+	margin: 0;
+	margin-bottom: 1.5cm;
+}
+
+@page {
+	size: a4;
+	margin: 1.5cm 0;
+	background-image: url("../assets/background.jpg");
+	background-size: cover;
+	
+	@bottom-center {
+		font-size: 10pt;
+	}
+}
+
+html {
+	font-size: 12pt;
+	font-family: StixTwo,serif;
+	font-weight: 500;
+}
+
+*, *:before, *:after {
+	/*outline: 1px solid rgba(255,0,255,.05);*/
+}
+
+header {
+	padding: 2cm 2.5cm;
+	padding-bottom: 1cm;
+	background-color: #2873B8;
+	background-image: linear-gradient(
+		to top,
+		#3883D8,
+		#3883D8 16pt,
+		#3883D800 16pt
+	);
+	color: white;
+	text-align: center;
+}
+
+main {
+	padding: .5cm 3cm;
+}
+
+p {
+	margin: 0;
+	hyphens: auto;
+	text-align: justify;
+}
+
+h2 {
+	font-family: SourceSans3,sans-serif;
+	font-weight: 800;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: .8em;
+	letter-spacing: .1em;
+	margin-top: 2rem;
+	margin-bottom: 5pt;
+	padding-bottom: 5pt;
+	border-bottom: 1pt solid #55C1FF;
+	color: #102E4A;
+}
+
+section:first-of-type h2:first-of-type {
+	margin-top: 5pt;
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 2em;
+	letter-spacing: -.5pt;
+	font-family: SourceSans3,sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.profile {
+	width: 108pt;
+	height: 108pt;
+	background-color: #000;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	border: 5pt solid #3883D8;
+	flex-basis: 0;
+}
+
+header address {
+	font-size: .9em;
+	font-style: normal;
+	letter-spacing: .5pt;
+	font-family: SourceSans3,sans-serif;
+	max-width: 30em;
+	margin: auto;
+}
+
+header address ul {
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: center;
+	transform: translateX(-1em);
+}
+
+header address li:before { /* don't confuse autoreaders by having it be graphics '*/
+	content:"";
+	width: 1em;
+	height: 1em;
+	margin: 0 .5em;
+	margin-left: 2em;
+	display:inline-block;
+	vertical-align: middle;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+header address li:nth-of-type(1):before { background-image: url("../assets/map-pin-solid.svg"); }
+header address li:nth-of-type(2):before { background-image: url("../assets/phone-solid.svg"); }
+header address li:nth-of-type(3):before { background-image: url("../assets/earth-asia-solid.svg"); }
+header address li:nth-of-type(4):before { background-image: url("../assets/envelope-solid.svg"); }
+header address li:nth-of-type(5):before { background-image: url("../assets/linkedin.svg"); }
+
+header address li:last-of-type:after {
+	display:none;
+}
+
+header address li {
+	display:inline-block;
+}
+
+dl#education div:not(:last-of-type),
+dl#work div:not(:last-of-type),
+dl#volunteer div:not(:last-of-type) {
+	margin-bottom: 1em;
+}
+
+dl#education div dt,
+dl#work div dt,
+dl#volunteer div dt {
+	display: flex;
+	font-weight: 500;
+	font-size: 1.25em;
+}
+
+dl#education div dt span,
+dl#work div dt span,
+dl#volunteer div dt span {
+	display: block;
+}
+
+dl#education div dt span.school,
+dl#work div dt span.org,
+dl#volunteer div dt span.org {
+	flex-grow: 1;
+	font-weight: 600;
+}
+
+dl#education div dt span.year,
+dl#work div dt span.period,
+dl#volunteer div dt span.period {
+	flex-grow: 0;
+	font-weight: 400;
+	opacity: .5;
+}
+
+dl#education div dd div.major,
+dl#work div dd div.work,
+dl#volunteer div dd div.work {
+	font-style: oblique;
+}
+
+dl#skills {
+	columns: 3;
+}
+
+dl#skills dd {
+	margin: 0 0 8pt 0;
+}
+
+ul.tag-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul.tag-list li {
+	display: block;
+	flex-grow: 0;
+	text-align: center;
+	margin: 0 4pt 4pt 0;
+	padding: 1pt 6pt;
+	border-radius: 5pt;
+	background-color: #eee;
+	font-size: .9em;
+	font-style: normal;
+	letter-spacing: .25pt;
+	font-family: SourceSans3,sans-serif;
+}
+
+dl#skills dt {
+	font-weight: 600;
+}
+
+br.whole-page-break {
+	break-before: always;
+	display: block;
+}

@@ -1,0 +1,8 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+weasyprint = "==59.0"
+toml = "==0.10.2"

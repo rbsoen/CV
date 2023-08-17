@@ -1,0 +1,61 @@
+0="en"
+1="'page ' counter(page) ' of ' counter(pages)"
+000="Summary"
+100="Fresh graduate of computer engineering looking for valuable opportunities in the IT sector. Experienced in delivering attractive visual design and engineering software tools. A self-learner, striving to deliver the best results possible using any tool available. Always at the ready to commit to the job with due diligence."
+
+200="Education"
+
+300="Universitas Indonesia"
+400="Majored in Computer Engineering"
+500="Graduated with a GPA of 3.83, with the thesis: <i>Comparative Analysis and Implementation of AES Block Cipher in C Language</i>."
+
+600="Work Experience"
+
+700="Electric Engineering Dept. FT UI"
+800="Developed software to process student data for administrative purposes."
+
+900="PPST/Lemtek FT UI"
+1000="Assistant Researcher under Secure HT-Box Project"
+1100="Helped develop cryptography software and tested the reliability of audio encryption algorithms."
+
+1200="Volunteer & Organizational Experience"
+
+1300="UI Robotics Team"
+
+1400="ASHVARA, Head of Programming Division"
+1500="Maintained and improved upon driver software for dancing robots contest, written for the Arduino platform."
+
+1600="OKK UI"
+1700="Vice Person in Charge, Documentation Division"
+1800="Supervised and coordinated documentation crew throughout the event."
+
+1900="UI Film Festival"
+2000="Person in Charge, Design Division"
+2100="Worked with the PR department and Festival Lead to specify the design language used throughout the event. Assisted the design staff in fulfilling the design needs throughout the festival."
+
+2200="Sinematografi UI"
+2300="Head of Design"
+2400="Worked with the PR department to specify the design language used throughout social media feeds. Worked together with the staff to produce posts that match the specification."
+
+2500="Skills"
+
+2600="Front-End Development"
+
+2700="Back-End Development"
+
+2800="Scripting"
+
+2900="Soft Skills"
+
+3000="Collaboration"
+3100="Leadership"
+3200="Communication"
+3300="Problem Solving"
+
+3400="Graphic Design"
+3410="Video Editing"
+
+3500="Languages"
+
+3600="Indonesian"
+3700="English"

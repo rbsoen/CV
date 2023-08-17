@@ -1,9 +1,9 @@
-CV_FILES := cv.en.pdf cv.id.pdf
+GEN_FILES := resume.en.pdf resume.id.pdf
 
-all: $(CV_FILES)
+all: $(GEN_FILES)
 
 clean:
-	rm $(CV_FILES)
+	rm $(GEN_FILES)
 
-cv.%.pdf: cv.html translations/%.toml
+resume.%.pdf: resume.html translations/%.toml
 	python tools/localize.py $< $(word 2,$^) | weasyprint - $@

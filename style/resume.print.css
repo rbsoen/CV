@@ -15,7 +15,7 @@
 }
 
 html {
-	font-size: 12pt;
+	font-size: 11pt;
 	font-family: StixTwo,serif;
 	font-weight: 500;
 }
@@ -25,8 +25,9 @@ html {
 }
 
 header {
-	padding: 2cm 2.5cm;
-	padding-bottom: 1cm;
+	display: flex;
+	flex-direction: row;
+	padding: 1cm 1.5cm;
 	background-color: #2873B8;
 	background-image: linear-gradient(
 		to top,
@@ -35,17 +36,18 @@ header {
 		#3883D800 16pt
 	);
 	color: white;
-	text-align: center;
+	text-align: left;
 }
 
 main {
-	padding: .5cm 3cm;
+	padding: .5cm 1.5cm;
+	columns: 2;
+	column-gap: 2rem;
 }
 
 p {
 	margin: 0;
-	hyphens: auto;
-	text-align: justify;
+	hyphens: none;
 }
 
 h2 {
@@ -55,7 +57,7 @@ h2 {
 	text-transform: uppercase;
 	font-size: .8em;
 	letter-spacing: .1em;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	margin-bottom: 5pt;
 	padding-bottom: 5pt;
 	border-bottom: 1pt solid #55C1FF;
@@ -63,7 +65,7 @@ h2 {
 }
 
 section:first-of-type h2:first-of-type {
-	margin-top: 5pt;
+	margin-top: 2pt;
 }
 
 h1 {
@@ -71,6 +73,29 @@ h1 {
 	font-size: 2em;
 	letter-spacing: -.5pt;
 	font-family: SourceSans3,sans-serif;
+	transform: translateY(10pt);
+}
+
+h1 span {
+	font-size: .7em;
+	font-weight: 600;
+	letter-spacing: 0;
+	font-style: oblique;
+	display: block;
+}
+
+.profile {
+	width: 80pt;
+	height: 80pt;
+	flex-basis: 0;
+	flex-shrink: 0;
+	flex-grow: 0;
+	margin-right: 16pt;
+	border-radius: 50%;
+}
+
+h1 br {
+	display: none;
 }
 
 a {
@@ -78,31 +103,19 @@ a {
 	color: inherit;
 }
 
-.profile {
-	width: 108pt;
-	height: 108pt;
-	background-color: #000;
-	display: block;
-	margin: auto;
-	border-radius: 50%;
-	border: 5pt solid #3883D8;
-	flex-basis: 0;
-}
-
 header address {
 	font-size: .9em;
 	font-style: normal;
 	letter-spacing: .5pt;
 	font-family: SourceSans3,sans-serif;
-	max-width: 30em;
 	margin: auto;
+	flex-grow: 0;
 }
 
 header address ul {
 	display: flex;
+	flex-direction: column;
 	list-style: none;
-	flex-wrap: wrap;
-	justify-content: center;
 	transform: translateX(-1em);
 }
 
@@ -116,7 +129,7 @@ header address li:before { /* don't confuse autoreaders by having it be graphics
 	vertical-align: middle;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: center;
 }
 
 header address li:nth-of-type(1):before { background-image: url("../assets/map-pin-solid.svg"); }
@@ -144,7 +157,7 @@ dl#work div dt,
 dl#volunteer div dt {
 	display: flex;
 	font-weight: 500;
-	font-size: 1.25em;
+	font-size: 1em;
 }
 
 dl#education div dt span,
@@ -175,7 +188,7 @@ dl#volunteer div dd div.work {
 }
 
 dl#skills {
-	columns: 3;
+	columns: 2;
 }
 
 dl#skills dd {
@@ -203,6 +216,7 @@ ul.tag-list li {
 
 dl#skills dt {
 	font-weight: 600;
+	font-size: 1em;
 }
 
 br.whole-page-break {

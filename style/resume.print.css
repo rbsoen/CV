@@ -41,7 +41,7 @@ header {
 
 main {
 	padding: .5cm 1.5cm;
-	columns: 2;
+	columns: 2; /* how many columns for content */
 	column-gap: 2rem;
 }
 
@@ -208,8 +208,7 @@ ul.tag-list li {
 	margin: 0 3pt 3pt 0;
 	padding: 1pt 6pt;
 	border-radius: 5pt;
-	background-color: #eee;
-	border: 1pt solid #ddd;
+	background-color: #def;
 	font-size: .9em;
 	font-style: normal;
 	letter-spacing: .25pt;

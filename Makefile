@@ -8,7 +8,7 @@ cv: $(CV_FILES)
 resume: $(RESUME_FILES)
 
 clean:
-	rm $(RESUME_FILES)
+	rm -f $(CV_FILES) $(RESUME_FILES)
 
 .PHONY: cv resume all clean
 

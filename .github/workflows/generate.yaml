@@ -1,0 +1,33 @@
+name: Generate
+on:
+  push:
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+      
+      - name: Build all
+        run: |
+          pip install weasyprint toml
+          make
+      
+      - name: Upload to website
+        if: ${{ github.event_name == 'push' && github.repository_owner == 'rbsoen' }}
+        env:
+          CI_GITHUB_TOKEN: ${{ secrets.UPLOAD_CV_TOKEN }}
+        run: |
+          git clone https://github-actions:$CI_GITHUB_TOKEN@github.com/rbsoen/rbsoen.github.io
+          cd rbsoen.github.io
+          git config user.name "GitHub Actions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -fv static/pdf/resume.*.pdf static/pdf/cv.*.pdf
+          for i in ../resume.*.pdf ../cv.*.pdf; do mv $i static/pdf; done
+          git add static/pdf/*.pdf
+          git commit -m "Update CV & resume from CV-Resume repo"
+          git push origin master

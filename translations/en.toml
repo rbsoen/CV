@@ -1,7 +1,7 @@
 0="en"
 1="'page ' counter(page) ' of ' counter(pages)"
 000="Summary"
-100="Fresh computer engineering graduate looking for valuable opportunities in the IT sector. Experienced in delivering attractive visual design and engineering software tools. A self-learner, striving to deliver the best results possible using any tool available. Always at the ready to commit to the job with due diligence."
+100="Experienced in visual design and software. A self-learner, striving to deliver the best results possible using any tool available. Oriented towards the effective and fast use of technology. Can learn new concepts and tools quickly. Regularly develops small software tools for various tasks."
 
 010="About Me"
 020="Nickname"
@@ -27,18 +27,18 @@
 600="Work Experience"
 
 700="Electric Engineering Dept. FT UI"
-800="Developed software to process student data for administrative purposes."
+800="Developed software in Python to process student data for administrative purposes."
 
 900="PPST/Lemtek FT UI"
 1000="Assistant Researcher under Secure HT-Box Project"
-1100="Helped develop cryptography software and tested the reliability of audio encryption algorithms."
+1100="Developed cryptography software with C and MATLAB. Tested the reliability of audio encryption algorithms."
 
 1200="Volunteer & Organizational Experience"
 
 1300="UI Robotics Team"
 
 1400="ASHVARA, Head of Programming Division"
-1500="Maintained and improved upon driver software for dancing robots contest, written for the Arduino platform."
+1500="Maintained and improved upon Arduino driver software for dancing robots contest."
 
 1600="OKK UI"
 1700="Vice Person in Charge, Documentation Division"
@@ -46,11 +46,11 @@
 
 1900="UI Film Festival"
 2000="Person in Charge, Design Division"
-2100="Worked with the PR department and Festival Lead to specify the design language used throughout the event. Assisted the design staff in fulfilling the design needs throughout the festival."
+2100="Specified the design language used throughout the event, with 3 separate themes. Assisted the design staff in fulfilling the design needs throughout the festival."
 
 2200="Sinematografi UI"
 2300="Head of Design"
-2400="Worked with the PR department to specify the design language used throughout social media feeds. Worked together with the staff to produce posts that match the specification."
+2400="Specified the design language used throughout social media feeds. Produced at least 50 designs for social media posts."
 
 2210="Club of Science & Social SMAN 3 Depok"
 2310="Secretary"

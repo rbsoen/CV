@@ -1,7 +1,7 @@
 0="id"
 1="'hlm. ' counter(page) ' dari ' counter(pages)"
 000="Deskripsi"
-100="Lulusan teknik komputer yang sedang mencari kesempatan pengembangan diri di bidang IT. Berpengalaman dalam membuat desain visual yang menarik dan rekayasa <i>software</i>. Seorang pembelajar mandiri yang berusaha untuk memberi hasil yang terbaik menggunakan alat apa saja yang relevan. Selalu siap untuk berkomitmen pada pekerjaan dengan rajin."
+100="Berpengalaman dalam rekayasa <i>software</i> dan desain visual. Pembelajar mandiri yang berusaha untuk memberi hasil yang terbaik menggunakan alat apa saja yang relevan. Berorientasi pada penggunaan teknologi secara efektif. Dapat mempelajari konsep-konsep baru dengan cepat. Terbiasa membuat peralatan <i>software</i> kecil untuk berbagai keperluan sehari-hari."
 
 010="Tentang Saya"
 020="Panggilan"
@@ -27,18 +27,18 @@
 600="Pengalaman Kerja"
 
 700="Dept. Teknik Elektro FT UI"
-800="Mengembangkan <i>software</i> untuk memroses data mahasiswa untuk keperluan administratif."
+800="Mengembangkan <i>software</i> dengan Python untuk memroses data mahasiswa untuk keperluan administratif."
 
 900="PPST/Lemtek FT UI"
 1000="Asisten Periset di bawah Proyek Secure HT-Box"
-1100="Membantu mengembangkan <i>software</i> kriptografi dan menguji ketahanan algoritma enkripsi suara."
+1100="Mengembangkan <i>software</i> kriptografi dengan C dan MATLAB. Menguji ketahanan algoritma enkripsi suara."
 
 1200="Pengalaman Organisasi"
 
 1300="Tim Robotika UI"
 
 1400="ASHVARA, Kepala Divisi Pemrograman"
-1500="Merawat dan melanjutkan <i>driver software</i> yang ditulis untuk platform Arduino untuk lomba robot tari."
+1500="Merawat dan melanjutkan <i>driver software</i> Arduino untuk lomba robot tari."
 
 1600="OKK UI"
 1700="Wakil Penanggung Jawab Divisi Dokumentasi"
@@ -46,11 +46,11 @@
 
 1900="UI Film Festival"
 2000="Penanggung Jawab Divisi Desain"
-2100="Bekerja sama dengan divisi publikasi dan <i>Festival Lead</i> untuk merumuskan filosofi tampilan desain acara. Membantu staf desain dalam memenuhi kebutuhan desain selama acara berlangsung."
+2100="Merumuskan tampilan desain acara. Membantu staf desain dalam memenuhi kebutuhan desain selama acara berlangsung."
 
 2200="Sinematografi UI"
 2300="Penanggung Jawab Divisi Desain"
-2400="Bekerja sama dengan divisi publikasi untuk merumuskan filosofi tampilan dan <i>branding</i> feed media sosial. Membantu staff dalam menghasilkan desain yang selaras dengan filosofi yang dirumuskan."
+2400="Merumuskan tampilan dan <i>branding</i> feed media sosial. Menghasilkan setidaknya 50 desain unggahan media sosial."
 
 2210="Club of Science & Social SMAN 3 Depok"
 2310="Sekretaris"
